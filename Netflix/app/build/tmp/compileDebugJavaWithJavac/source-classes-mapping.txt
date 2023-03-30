@@ -1,0 +1,4 @@
+com/cursoandroid/netflix/MainActivity.java
+ com.cursoandroid.netflix.MainActivity
+com/cursoandroid/netflix/BuildConfig.java
+ com.cursoandroid.netflix.BuildConfig
