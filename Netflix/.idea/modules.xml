@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/Netflix.iml" filepath="$PROJECT_DIR$/Netflix.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Netflix.iml" filepath="$PROJECT_DIR$/.idea/modules/Netflix.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/Netflix.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/Netflix.app.iml" />
     </modules>
   </component>

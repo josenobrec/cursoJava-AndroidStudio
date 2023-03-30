@@ -1,4 +1,4 @@
-#Wed Feb 09 09:07:06 BRST 2022
-base.0=C\:\\Users\\jose_nobre\\AndroidStudioProjects\\Netflix\\app\\build\\intermediates\\dex\\debug\\mergeDexDebug\\out\\classes.dex
+#Thu Mar 30 16:42:51 BRT 2023
+base.0=C\:\\Users\\jose_nobre\\Downloads\\Netflix\\app\\build\\intermediates\\dex\\debug\\mergeDexDebug\\classes.dex
 path.0=classes.dex
 renamed.0=classes.dex

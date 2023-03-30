@@ -1,21 +1,21 @@
 1<?xml version="1.0" encoding="utf-8"?>
 2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
-3    package="com.primeiroprojeto.netflix"
+3    package="com.cursoandroid.primeiroapp"
 4    android:versionCode="1"
 5    android:versionName="1.0" >
 6
 7    <uses-sdk
-8        android:minSdkVersion="16"
+8        android:minSdkVersion="19"
 8-->C:\Users\jose_nobre\Downloads\Netflix\app\src\main\AndroidManifest.xml
-9        android:targetSdkVersion="32" />
+9        android:targetSdkVersion="27" />
 9-->C:\Users\jose_nobre\Downloads\Netflix\app\src\main\AndroidManifest.xml
 10
 11    <application
-11-->C:\Users\jose_nobre\Downloads\Netflix\app\src\main\AndroidManifest.xml:5:5-19:19
+11-->C:\Users\jose_nobre\Downloads\Netflix\app\src\main\AndroidManifest.xml:5:5-21:19
 12        android:allowBackup="true"
 12-->C:\Users\jose_nobre\Downloads\Netflix\app\src\main\AndroidManifest.xml:6:9-35
 13        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-13-->[androidx.core:core:1.0.1] C:\Users\jose_nobre\.gradle\caches\transforms-2\files-2.1\c0a39027978b83a483a047f5c31d0c4e\core-1.0.1\AndroidManifest.xml:22:18-86
+13-->[androidx.core:core:1.7.0] C:\Users\jose_nobre\.gradle\caches\transforms-2\files-2.1\ac6a4373db31c761b96c2d467c311f0a\core-1.7.0\AndroidManifest.xml:24:18-86
 14        android:debuggable="true"
 15        android:icon="@mipmap/ic_launcher"
 15-->C:\Users\jose_nobre\Downloads\Netflix\app\src\main\AndroidManifest.xml:7:9-43
@@ -26,22 +26,47 @@
 18        android:supportsRtl="true"
 18-->C:\Users\jose_nobre\Downloads\Netflix\app\src\main\AndroidManifest.xml:10:9-35
 19        android:testOnly="true"
-20        android:theme="@style/AppTheme" >
-20-->C:\Users\jose_nobre\Downloads\Netflix\app\src\main\AndroidManifest.xml:11:9-40
-21        <activity android:name="com.primeiroprojeto.netflix.MainActivity" >
-21-->C:\Users\jose_nobre\Downloads\Netflix\app\src\main\AndroidManifest.xml:12:9-18:20
-21-->C:\Users\jose_nobre\Downloads\Netflix\app\src\main\AndroidManifest.xml:12:19-47
-22            <intent-filter>
-22-->C:\Users\jose_nobre\Downloads\Netflix\app\src\main\AndroidManifest.xml:13:13-17:29
-23                <action android:name="android.intent.action.MAIN" />
-23-->C:\Users\jose_nobre\Downloads\Netflix\app\src\main\AndroidManifest.xml:14:17-69
-23-->C:\Users\jose_nobre\Downloads\Netflix\app\src\main\AndroidManifest.xml:14:25-66
-24
-25                <category android:name="android.intent.category.LAUNCHER" />
-25-->C:\Users\jose_nobre\Downloads\Netflix\app\src\main\AndroidManifest.xml:16:17-77
-25-->C:\Users\jose_nobre\Downloads\Netflix\app\src\main\AndroidManifest.xml:16:27-74
-26            </intent-filter>
-27        </activity>
-28    </application>
-29
-30</manifest>
+20        android:theme="@style/Theme.Netflix" >
+20-->C:\Users\jose_nobre\Downloads\Netflix\app\src\main\AndroidManifest.xml:11:9-45
+21        <activity
+21-->C:\Users\jose_nobre\Downloads\Netflix\app\src\main\AndroidManifest.xml:12:9-20:20
+22            android:name="com.cursoandroid.netflix.MainActivity"
+22-->C:\Users\jose_nobre\Downloads\Netflix\app\src\main\AndroidManifest.xml:12:19-47
+23            android:screenOrientation="sensor" >
+23-->C:\Users\jose_nobre\Downloads\Netflix\app\src\main\AndroidManifest.xml:13:13-47
+24            <intent-filter>
+24-->C:\Users\jose_nobre\Downloads\Netflix\app\src\main\AndroidManifest.xml:15:13-19:29
+25                <action android:name="android.intent.action.MAIN" />
+25-->C:\Users\jose_nobre\Downloads\Netflix\app\src\main\AndroidManifest.xml:16:17-69
+25-->C:\Users\jose_nobre\Downloads\Netflix\app\src\main\AndroidManifest.xml:16:25-66
+26
+27                <category android:name="android.intent.category.LAUNCHER" />
+27-->C:\Users\jose_nobre\Downloads\Netflix\app\src\main\AndroidManifest.xml:18:17-77
+27-->C:\Users\jose_nobre\Downloads\Netflix\app\src\main\AndroidManifest.xml:18:27-74
+28            </intent-filter>
+29        </activity>
+30
+31        <provider
+31-->[androidx.emoji2:emoji2:1.0.0] C:\Users\jose_nobre\.gradle\caches\transforms-2\files-2.1\1d4182537d0a51532900766a0fbc213c\jetified-emoji2-1.0.0\AndroidManifest.xml:26:9-34:20
+32            android:name="androidx.startup.InitializationProvider"
+32-->[androidx.emoji2:emoji2:1.0.0] C:\Users\jose_nobre\.gradle\caches\transforms-2\files-2.1\1d4182537d0a51532900766a0fbc213c\jetified-emoji2-1.0.0\AndroidManifest.xml:27:13-67
+33            android:authorities="com.cursoandroid.primeiroapp.androidx-startup"
+33-->[androidx.emoji2:emoji2:1.0.0] C:\Users\jose_nobre\.gradle\caches\transforms-2\files-2.1\1d4182537d0a51532900766a0fbc213c\jetified-emoji2-1.0.0\AndroidManifest.xml:28:13-68
+34            android:exported="false" >
+34-->[androidx.emoji2:emoji2:1.0.0] C:\Users\jose_nobre\.gradle\caches\transforms-2\files-2.1\1d4182537d0a51532900766a0fbc213c\jetified-emoji2-1.0.0\AndroidManifest.xml:29:13-37
+35            <meta-data
+35-->[androidx.emoji2:emoji2:1.0.0] C:\Users\jose_nobre\.gradle\caches\transforms-2\files-2.1\1d4182537d0a51532900766a0fbc213c\jetified-emoji2-1.0.0\AndroidManifest.xml:31:13-33:52
+36                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+36-->[androidx.emoji2:emoji2:1.0.0] C:\Users\jose_nobre\.gradle\caches\transforms-2\files-2.1\1d4182537d0a51532900766a0fbc213c\jetified-emoji2-1.0.0\AndroidManifest.xml:32:17-75
+37                android:value="androidx.startup" />
+37-->[androidx.emoji2:emoji2:1.0.0] C:\Users\jose_nobre\.gradle\caches\transforms-2\files-2.1\1d4182537d0a51532900766a0fbc213c\jetified-emoji2-1.0.0\AndroidManifest.xml:33:17-49
+38            <meta-data
+38-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\jose_nobre\.gradle\caches\transforms-2\files-2.1\2e6f63206bf141dea321da3b250f6866\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:31:13-33:52
+39                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+39-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\jose_nobre\.gradle\caches\transforms-2\files-2.1\2e6f63206bf141dea321da3b250f6866\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:32:17-78
+40                android:value="androidx.startup" />
+40-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\jose_nobre\.gradle\caches\transforms-2\files-2.1\2e6f63206bf141dea321da3b250f6866\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:33:17-49
+41        </provider>
+42    </application>
+43
+44</manifest>

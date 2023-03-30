@@ -6,15 +6,11 @@
     </shared>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="16e5b20d-ba09-45de-aab1-7c8c428ac8d7" name="Default Changelist" comment="" />
+    <list default="true" id="09a1815b-6f4e-4038-96a8-ce7404607a33" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
-  </component>
-  <component name="DefaultGradleProjectSettings">
-    <option name="testRunner" value="GRADLE" />
-    <option name="delegatedBuild" value="true" />
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[127.0.0.1:62026]" />
   <component name="ExternalProjectsData">
@@ -22,25 +18,30 @@
       <ProjectState />
     </projectState>
   </component>
-  <component name="ExternalProjectsManager">
-    <system id="GRADLE">
-      <state>
-        <projects_view />
-      </state>
-    </system>
-  </component>
-  <component name="ProjectId" id="256swCwCJodRfrZyvZkCIbNaRaL" />
+  <component name="ProjectId" id="24qKPkaFZcOtEOhfKNfNF0c8apv" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
-    <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/Sdk" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="android.sdk.path" value="$PROJECT_DIR$/../../../Android/android-studio-sdk" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/app/src/main/res/drawable" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.17" />
     <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="AndroidSdkUpdater" />
     <property name="show.do.not.copy.http.proxy.settings.to.gradle" value="true" />
+  </component>
+  <component name="PsdUISettings">
+    <option name="LAST_EDITED_BUILD_TYPE" value="release" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\jose_nobre\Netflix\app\src\main\res\drawable" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration default="true" type="AndroidJUnit" factoryName="Android JUnit">
@@ -113,18 +114,18 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="16e5b20d-ba09-45de-aab1-7c8c428ac8d7" name="Default Changelist" comment="" />
-      <created>1644404578314</created>
+      <changelist id="09a1815b-6f4e-4038-96a8-ce7404607a33" name="Default Changelist" comment="" />
+      <created>1644352654462</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1644404578314</updated>
+      <updated>1644352654462</updated>
     </task>
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1644859200663">
+    <state x="669" y="106" key="#app" timestamp="1680205178400">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="740" y="275" key="FileChooserDialogImpl/-1920.94.1280.693/0.0.1920.1040@0.0.1920.1040" timestamp="1644859200663" />
+    <state x="669" y="106" key="#app/-1920.94.1280.693/0.0.1920.1040@0.0.1920.1040" timestamp="1680205178400" />
   </component>
 </project>
